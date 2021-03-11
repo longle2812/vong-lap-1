@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fibo</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a1 = 1;
+    document.write (a1+" ");
+    let a2 = 1;
+    document.write (a2+" ");
+    let a3;
+    let i = 3;
+    do {
+        a3 = a1 + a2;
+        document.write(a3+" ");
+        a1 = a2;
+        a2 = a3;
+    }
+    while (a3 % 5 !== 0);
+</script>
+</html>
